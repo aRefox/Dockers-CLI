@@ -2,7 +2,7 @@
  "env": {
    "region": "default_hn_group_1",
    "displayName": "TestWordpress",
-   "shortdomain": "testwordpress2",
+   "shortdomain": "testwordpress",
    "engine": "java7"
  },
  "nodes": [
