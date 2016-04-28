@@ -2,7 +2,7 @@
  "env": {
    "region": "default_hn_group_1",
    "displayName": "TestWordpress",
-   "shortdomain": "testwordpress",
+   "shortdomain": "testwordpress1",
    "engine": "java7"
  },
  "nodes": [
@@ -16,7 +16,7 @@
      "docker": {
         "env": "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
         "image": "node72669-private-reg.demo.jelastic.com:11113/testwordpress",
-        "name": "testwordpress2"
+        "displayName": "DockerName"
      }
    }
  ]
