@@ -1,0 +1,22 @@
+{
+ env: {
+   region: "default_hn_group_1",
+   displayName: "Test Wordpress",
+   shortdomain: "testwordpress",
+   engine: "java7"
+ },
+ nodes: [
+   {
+     nodeType: "docker",
+     nodeGroup: "cp",
+     count: 1,
+     fixedCloudlets: 1,
+     flexibleCloudlets: 16,
+     displayName: "testwordpress",
+     docker: {
+        env: "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        image: "node72669-private-reg.demo.jelastic.com:11113/testwordpress"
+     }
+   }
+ ]
+} 
