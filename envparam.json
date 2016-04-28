@@ -1,8 +1,8 @@
 {
  "env": {
-   "region": "default_hn_group_1",
+   "region": "default_hn_group",
    "displayName": "TestWordpress",
-   "shortdomain": "testwordpress1",
+   "shortdomain": "testwordpress2",
    "engine": "java7"
  },
  "nodes": [
