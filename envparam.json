@@ -16,7 +16,7 @@
      "docker": {
         "env": "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
         "image": "node72669-private-reg.demo.jelastic.com:11113/testwordpress",
-        "name": "testwordpress1"
+        "name": "testwordpress2"
      }
    }
  ]
