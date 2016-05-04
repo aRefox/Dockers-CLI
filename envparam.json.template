@@ -1,6 +1,6 @@
 {
  "env": {
-   "region": "default_hn_group_1",
+   "region": "default_hn_group",
    "displayName": "APPNAME",
    "shortdomain": "PRODDOMAIN",
    "engine": "java7"
