@@ -19,7 +19,6 @@
         },
         "image": "wordpressexam:latest",
         "env": {
-          "VTUN_PASSWORD": "DONT_BE_DUPE_CHANGE_ME",
           "APPNAME": "WordpressExam",
           "DOMAINNAME": "wordpressexam",
           "LOGINNAME": "andriy.kyrychuk@hivext.net",

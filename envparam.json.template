@@ -20,7 +20,17 @@
         "image": "DOMAINNAME:latest",
         "env": {
           "APPNAME": "WordpressExam",
-          "DOMAINNAME": "wordpressexam"
+          "DOMAINNAME": "wordpressexam",
+          "LOGINNAME": "andriy.kyrychuk@hivext.net",
+          "LOGINPASS": "abcABC123",
+          "PLATFORMURL": "app.stage.jelastic.com",
+          "TARGETAPPID": "",
+          "CURRENT_PRODUCTION_ID": "",
+          "CURRENT_PRODUCTION_DOMAIN": "",
+          "NEW_PRODUCTION_ID": "",
+          "NEW_PRODUCTION_DOMAIN": "",
+          "ENVAMOUNT": "0",
+          "ENVCOUNT": "0"
         }
       }
     }
