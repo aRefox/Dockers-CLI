@@ -1,22 +1,39 @@
 {
- "env": {
-   "region": "default_hn_group_1",
-   "displayName": "TestWordpress",
-   "shortdomain": "testwordpress",
-   "engine": "java7"
- },
- "nodes": [
-   {
-     "nodeType": "docker",
-     "nodeGroup": "cp",
-     "count": 1,
-     "fixedCloudlets": 1,
-     "flexibleCloudlets": 16,
-     "displayName": "testwordpress",
-     "docker": {
-        "env": "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
-        "image": "node72669-private-reg.demo.jelastic.com:11113/testwordpress"
-     }
-   }
- ]
+  "env": {
+    "region": "default_hn_group_1",
+    "displayName": "Test WordpressExam",
+    "shortdomain": "wordpressexam",
+    "engine": "java7"
+  },
+  "nodes": [
+    {
+      "nodeType": "docker",
+      "nodeGroup": "cp",
+      "count": 1,
+      "fixedCloudlets": 1,
+      "flexibleCloudlets": 16,
+      "displayName": "wordpressexam",
+      "docker": {
+        "registry": {
+          "url": "node72669-private-reg.demo.jelastic.com:11113"
+        },
+        "image": "wordpressexam:latest",
+        "env": {
+          "VTUN_PASSWORD": "DONT_BE_DUPE_CHANGE_ME",
+          "APPNAME": "WordpressExam",
+          "DOMAINNAME": "wordpressexam",
+          "LOGINNAME": "andriy.kyrychuk@hivext.net",
+          "LOGINPASS": "abcABC123",
+          "PLATFORMURL": "app.stage.jelastic.com",
+          "TARGETAPPID": "",
+          "CURRENT_PRODUCTION_ID": "",
+          "CURRENT_PRODUCTION_DOMAIN": "",
+          "NEW_PRODUCTION_ID": "",
+          "NEW_PRODUCTION_DOMAIN": "",
+          "ENVAMOUNT": "0",
+          "ENVCOUNT": "0"
+        }
+      }
+    }
+  ]
 }
