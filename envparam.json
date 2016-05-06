@@ -19,6 +19,32 @@
         },
         "image": "wordpressexam:latest",
         "env": {
+        	"APPNAME": "WordpressExam",
+"DOMAINNAME": "wordpressexam",
+"LOGINNAME": "andriy.kyrychuk@hivext.net",
+"LOGINPASS": "abcABC123",
+"PLATFORMURL": "app.stage.jelastic.com",
+"TARGETAPPID": "",
+"CURRENT_PRODUCTION_ID": "",
+"CURRENT_PRODUCTION_DOMAIN": "",
+"NEW_PRODUCTION_ID": "",
+"NEW_PRODUCTION_DOMAIN": "",
+"ENVAMOUNT": "0",
+"ENVCOUNT": "0"
+
+export APPNAME=WordpressExam
+export DOMAINNAME=wordpressexam
+export LOGINNAME=andriy.kyrychuk@hivext.net
+export LOGINPASS=abcABC123
+export PLATFORMURL=app.stage.jelastic.com
+export TARGETAPPID=
+export CURRENT_PRODUCTION_ID=
+export CURRENT_PRODUCTION_DOMAIN=
+export NEW_PRODUCTION_ID=
+export NEW_PRODUCTION_DOMAIN=
+export ENVAMOUNT=0
+export ENVCOUNT=0
+
           "APPNAME": "WordpressExam",
           "DOMAINNAME": "wordpressexam",
           "LOGINNAME": "andriy.kyrychuk@hivext.net",
