@@ -1,4 +1,4 @@
-[![Deploy](https://github.com/jelastic-jps/git-push-deploy/raw/master/images/deploy-to-jelastic.png)](https://jelastic.com/install-application/?manifest=https%3A%2F%2Fgithub.com%2Fjelastic-jps%2Fgit-push-deploy%2Fraw%2Fmaster%2Fmanifest.jps){:target="_blank"}
+<a href="https://jelastic.com/install-application/?manifest=https%3A%2F%2Fgithub.com%2Fjelastic-jps%2Fgit-push-deploy%2Fraw%2Fmaster%2Fmanifest.jps" target="_blank"><img src="https://github.com/jelastic-jps/git-push-deploy/raw/master/images/deploy-to-jelastic.png" alt="Deploy" /></a>
 
 (note: docker-wordpress *no longer* contains an sshd. It was probably a mistake to put one in in the first place, and you can now spawn arbitrary processes with use of the [docker exec](http://blog.docker.com/2014/10/docker-1-3-signed-images-process-injection-security-options-mac-shared-directories/) command. So do that, instead, like this:
 
